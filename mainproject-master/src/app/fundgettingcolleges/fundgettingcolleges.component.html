@@ -1,0 +1,21 @@
+<h3 align="center">Fund getting colleges</h3>
+  <p></p>
+  <table class="table table-striped table-responsive">
+    <thead>
+                                    <tr>
+                                        <th>College</th>
+                                        <th>See action plan</th>
+                                    </tr>
+            </thead>
+    <tbody>
+ <tr  *ngFor="let getter of getters">
+         
+          
+        <td>{{getter.company}}</td>
+        <td> 
+           <!-- <a class="btn btn-info" routerLink="/show/{{employee._id}}">Detail</a>  -->
+            <a class="btn btn-success" routerLink="/show/{{getter.id}}">Action Plan{{getter.id}}</a>
+        </td>
+ </tr>
+    </tbody>
+  </table>

@@ -1,0 +1,257 @@
+<div class="panel panel-default">
+  <div class="panel-heading"><b>{{heading}}</b></div>
+  <div class="panel-body">
+    <form class="form-horizontal" (submit)="updateParameter()" enctype="multipart/form-data">
+  
+      <div *ngIf="paramid == 1 || paramid ==2 || paramid==3 || paramid == 3 ||paramid == 4 ||paramid == 5" >
+        <div class="table-responsive">
+          <table class="table table-bordered">
+            <thead>
+         
+            <tr><td colspan=4 align="Center"><b>For session 2016-17</b><br><i></i></td></tr>
+            <tr><td  align="Center">Arts</td><td  align="Center">Science</td><td  align="Center">Commerce</td><td  align="Center">Other Faculty</td></tr>
+          </thead> 
+            <tr><td>Ph.D:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            PG:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            UG:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            Diploma:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            other:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            </td>
+            <td>Ph.D:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            PG:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            UG:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            Diploma:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            other:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            </td>
+            <td>Ph.D:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            PG:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            UG:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            Diploma:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            other:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            </td>        
+            <td>Ph.D:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            PG:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            UG:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            Diploma:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            other:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            </td>
+          </tr>
+           
+            </table>
+
+             <table class="table table-bordered">
+            <thead>
+         
+            <tr><td colspan=4 align="Center"><b>For session 2017-18</b><br><i></i></td></tr>
+            <tr><td  align="Center">Arts</td><td  align="Center">Science</td><td  align="Center">Commerce</td><td  align="Center">Other Faculty</td></tr>
+          </thead> 
+            <tr><td>Ph.D:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            PG:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            UG:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            Diploma:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            other:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            </td>
+            <td>Ph.D:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            PG:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            UG:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            Diploma:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            other:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            </td>
+            <td>Ph.D:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            PG:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            UG:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            Diploma:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            other:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            </td>        
+            <td>Ph.D:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            PG:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            UG:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            Diploma:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            other:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+            </td>
+          </tr>
+           
+            </table>
+          
+
+
+         </div>
+        </div>
+        
+          
+
+
+        <div *ngIf="paramid == 7 || paramid ==8" >
+            <div class="table-responsive">
+              <table class="table table-bordered">
+                <thead>
+             
+                <tr><td colspan=4 align="Center"><b>For session 2016-17</b><br><i></i></td></tr>
+                <tr><td  align="Center">Arts</td><td align="Center">Science</td><td  align="Center">Commerce</td><td  align="Center">Other Faculty</td></tr>
+              </thead>
+                <tr><td>Gen:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                        SC:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                         ST:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                        OBC:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                        Gen:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks"></td>
+                        <td>Gen:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                          SC:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                           ST:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                          OBC:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                          </td>
+                          <td>Gen:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                            SC:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                             ST:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                            OBC:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                          </td>
+                            <td>Gen:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                              SC:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                               ST:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                              OBC:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                              </td>
+                                 
+                
+              
+               
+                </table>
+               <table class="table table-bordered">
+                <thead>
+             
+                <tr><td colspan=4 align="Center"><b>For session 2017-18</b><br><i></i></td></tr>
+                <tr><td  align="Center">Arts</td><td align="Center">Science</td><td  align="Center">Commerce</td><td  align="Center">Other Faculty</td></tr>
+              </thead>
+                <tr><td>Gen:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                        SC:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                         ST:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                        OBC:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                       </td>
+                        <td>Gen:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                          SC:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                           ST:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                          OBC:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                       </td>
+                          <td>Gen:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                            SC:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                             ST:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                            OBC:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                       </td>
+                            <td>Gen:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                              SC:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                               ST:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                              OBC:<input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks">
+                              </td>
+                                 
+                
+              
+               
+                </table>             </div>
+            </div>             
+
+
+
+       
+
+            <div *ngIf="paramid == 21" >
+                <div class="table-responsive">
+                  <table class="table table-bordered">
+                    <thead>
+                 
+                    <tr><td colspan=4 align="Center"><b>For session 2016-17</b><br><i></i></td></tr>
+                                       
+                    <tr><td>All students</td><td>SC</td><td>ST</td><td>OBC</td></tr>
+                  </thead>
+                    <tr><td><input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks"></td>
+                      <td><input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks"></td>
+                      <td><input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks"></td>
+                      <td><input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks"></td>
+                      
+                     
+                  
+                  
+                   
+                    </table>
+                    <table class="table table-bordered">
+                        <thead>
+                     
+                        <tr><td colspan=4 align="Center"><b>For session 2017-18</b><br><i></i></td></tr>
+                        <tr><td>All students</td><td>SC</td><td>ST</td><td>OBC</td></tr>
+                      </thead>
+                        <tr><td><input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks"></td>
+                          <td><input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks"></td>
+                          <td><input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks"></td>
+                          <td><input type="text" class="form-control"  [(ngModel)]="model.remarks" name="remarks"></td>
+                          
+                         
+                        </table>
+                 </div>
+                </div>             
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+            <div *ngIf="paramid == 6 || paramid ==9 || paramid ==10 || paramid ==11 || paramid ==12 || paramid ==13 || paramid == 14 || paramid == 15 || paramid ==16 || paramid ==17 || paramid ==18 || paramid ==19 || paramid ==20 || paramid ==22 || paramid ==23 || paramid ==24 || paramid ==25" >
+                <div class="form-group">
+                    <label for="tiop" class="col-sm-2 control-label">For Session 2016-17: </label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" [(ngModel)]="model.tiop" name="tiop">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="tiop" class="col-sm-2 control-label">For session 2017-18: </label>
+                      <div class="col-sm-9">
+                        <input type="text" class="form-control" [(ngModel)]="model.tiop" name="tiop">
+                      </div>
+                    </div>
+            
+            </div>
+
+
+         
+
+
+
+
+
+              
+            <div *ngIf ="filestatus == false">
+            <div id="uploadfile" class="uploadfile">
+                <div class="form-group ">
+              <label class="control-label " for="fileupload">
+               Upload the Signed file
+              </label>
+                <input type="file" id="userImage" name="userImage" class="btn-info" />
+                <input type="button"  class="btn-warning" (click)="uploadbasedata()" value="Upload File" />
+                </div>
+               </div> 
+              </div>
+      
+      <div *ngIf ="filestatus == true">
+        Uploaded signed file is: <a href="http://misrusachd.in/api/baselineapi/selectblob.php?aid={{aid}}"> {{model.filename}}</a>
+              </div>
+      
+
+
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-8">
+            <button type="submit" class="btn btn-success">Update</button>
+            <a  class="btn btn-info" (click)="goBack()">Cancel</a>
+          </div>
+         
+        </div>
+
+
+
+
+</form>
+
+  </div>
+</div>

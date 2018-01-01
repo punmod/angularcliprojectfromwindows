@@ -1,0 +1,36 @@
+<div class="table-responsive">
+<table class="table table-bordered">
+  <thead><tr>
+      
+     <td><b>College</b></td>
+     <td><b>Type of Project</b></td>
+      <td><b>Title</b></td>
+      <td><b>Tentative Duration</b></td>
+      <td><b>Tentative Finish Date</b></td>
+      <td><b>Tentative Expenditure</b></td>
+      <td><b>Number of Geo-tagged pics</b></td>
+      <td><b>Uploaded on Fund tracker</b></td>
+     <td><b>Expenditure in June</b></td>
+      <td><b>Remarks</b></td>
+      
+    </tr>
+  </thead>
+  <tbody>
+     <tr *ngFor="let project of projects">
+        <td>{{project.company}}</td>
+        <td>{{project.top}}</td>
+        <td>{{project.tiop}}</td>
+        <td>{{project.dd }}</td>
+        <td>{{project.tnop | date}}</td>
+        <td>{{project.exp}}</td>
+        <td>{{project.geostatus}}</td>
+        <td>{{project.ftstatus}}</td>
+        
+      <td>{{project.expjune}}</td>
+     <td>{{project.remarks}}</td>
+     </tr>
+    
+  </tbody>
+ 
+</table>
+</div>
